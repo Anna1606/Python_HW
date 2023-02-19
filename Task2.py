@@ -5,5 +5,5 @@
 
 number = int(input('Введите трехзначное число: '))
 
-summ = int(number / 100) + number % 10 + number % 100 / 10
+summ = number // 100 + number % 10 + number % 100 // 10
 print(int(summ))
