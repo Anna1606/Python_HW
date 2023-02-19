@@ -10,7 +10,7 @@
 
 num = int(input('введите номер билета: '))
 
-a = int(num / 1000)
+a = num // 1000
 b = num % 1000
 sum_a = int(a / 100) + a % 10 + a % 100 / 10
 sum_b = int(b / 100) + b % 10 + b % 100 / 10
