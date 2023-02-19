@@ -10,8 +10,7 @@
 
 s = int(input('Общее количество журавликов: '))
 
-p = int(s / 6)
-c = int (p)
-k = int(2 * s / 3)
+p = с = s // 6
+k = 2 * s // 3)
 
-print('{}  {}  {}'.format(p, k, c))
+print(f'{p}  {k}  {c}')
